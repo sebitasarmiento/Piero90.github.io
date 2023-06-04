@@ -1,0 +1,50 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/pensando.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  text-align: end;
+  text-decoration: aliceblue;
+  text-decoration: solid;
+}
+
+/* Mis trabajos */
+
+.Trabajos .image-top {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: cyan;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 600;
+  color:aliceblue;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 150px;
+  }
+.customCard{
+  height: 150px;
+  object-fit: cover;
+  
+}
+
+
+}
+
